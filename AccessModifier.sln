@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#OPPS Concept", "AccessModifier\C#OPPS Concept.csproj", "{4528B5EB-838A-4CA6-9443-75024E702044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C#OPPS Concept", "AccessModifier\C#OPPS Concept.csproj", "{4528B5EB-838A-4CA6-9443-75024E702044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variable And It Uses", "Variable And It Uses\Variable And It Uses.csproj", "{5D71649A-2416-4906-9F7F-96DC4A88A1C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variable And It Uses", "Variable And It Uses\Variable And It Uses.csproj", "{5D71649A-2416-4906-9F7F-96DC4A88A1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor and it types", "Constructor and it types\Constructor and it types.csproj", "{48B33C07-339A-455E-805F-6EDD1AA5D6B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5D71649A-2416-4906-9F7F-96DC4A88A1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D71649A-2416-4906-9F7F-96DC4A88A1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D71649A-2416-4906-9F7F-96DC4A88A1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B33C07-339A-455E-805F-6EDD1AA5D6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B33C07-339A-455E-805F-6EDD1AA5D6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B33C07-339A-455E-805F-6EDD1AA5D6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B33C07-339A-455E-805F-6EDD1AA5D6B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
