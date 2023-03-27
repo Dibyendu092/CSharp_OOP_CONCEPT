@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variable And It Uses", "Var
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Constructor and it types", "Constructor and it types\Constructor and it types.csproj", "{48B33C07-339A-455E-805F-6EDD1AA5D6B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem On Methods", "Problem On Methods\Problem On Methods.csproj", "{4978C611-753D-4378-A19A-D35F12AC993E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problem On Methods", "Problem On Methods\Problem On Methods.csproj", "{4978C611-753D-4378-A19A-D35F12AC993E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{31DDDE0E-B36C-4700-881F-799AF38F5670}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4978C611-753D-4378-A19A-D35F12AC993E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4978C611-753D-4378-A19A-D35F12AC993E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4978C611-753D-4378-A19A-D35F12AC993E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31DDDE0E-B36C-4700-881F-799AF38F5670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31DDDE0E-B36C-4700-881F-799AF38F5670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31DDDE0E-B36C-4700-881F-799AF38F5670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31DDDE0E-B36C-4700-881F-799AF38F5670}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
