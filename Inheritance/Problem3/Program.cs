@@ -123,7 +123,7 @@ namespace Inheritance.Problem3
     
     internal class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             Console.WriteLine("Enter event name");
             string name = Console.ReadLine();
@@ -158,6 +158,6 @@ namespace Inheritance.Problem3
                     break;
             }
 
-        }
+        }*/
     }
 }
