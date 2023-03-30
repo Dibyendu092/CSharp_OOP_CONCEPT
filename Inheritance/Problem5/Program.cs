@@ -159,7 +159,7 @@ namespace Inheritance.Problem5
 {
     internal class Program
     {
-        static void Main(string[] args)
+       /* static void Main(string[] args)
         {
             Console.WriteLine("Enter stall name");
             string name = Console.ReadLine();
@@ -207,5 +207,6 @@ namespace Inheritance.Problem5
                     break;
             }
         }
+       */
     }
 }
