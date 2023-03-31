@@ -113,7 +113,7 @@ namespace Abstract_Classes.Problem2
 {
     internal class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             Console.WriteLine("Shapes\n1.Square\n2.Rectangle\n3.Circle\nEnter your choice");
             int choice = Convert.ToInt32(Console.ReadLine());
@@ -142,7 +142,7 @@ namespace Abstract_Classes.Problem2
                 default:
                        Console.WriteLine("Invalid input");
                        break;
-            }
+            }*/
         }
     }
 }
