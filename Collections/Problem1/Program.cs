@@ -9,7 +9,7 @@ namespace Collections.Problem1
 {
     internal class Program
     {
-       /* static void Main(string[] args)
+       /*static void Main(string[] args)
         {
             HallBO hallBO = new HallBO();
             List<Hall> hallList = new List<Hall>();

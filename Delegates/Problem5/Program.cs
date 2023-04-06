@@ -8,7 +8,7 @@ namespace Delegates.Problem5
 {
     internal class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             Console.WriteLine("Enter the number of halls:");
             int n = Convert.ToInt32(Console.ReadLine());
@@ -26,8 +26,8 @@ namespace Delegates.Problem5
             double min = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter the maximum price to filter:");
             double max = Convert.ToDouble(Console.ReadLine());*/
-            Hall hall1 = new Hall();
+           /* Hall hall1 = new Hall();
             hall1.DisplayHallDetails(hallList);
-        }
+        }*/
     }
 }

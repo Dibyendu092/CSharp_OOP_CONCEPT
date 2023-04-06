@@ -8,7 +8,7 @@ namespace Collections.Problem3
 {
     internal class Program
     {
-        /*static void Main(String[] args)
+        static void Main(String[] args)
         {
             Console.WriteLine("Enter the size of the userlist");
             int n=Convert.ToInt32(Console.ReadLine());
@@ -29,7 +29,7 @@ namespace Collections.Problem3
             Dictionary<string, int> dic = new Dictionary<string, int>();
             foreach(string s in list)
             {
-                if (dic.ContainsKey(s))
+                if (dic.ContainsKey(s) && s != null)
                 {
                     dic[s]++;
                 }
@@ -42,18 +42,15 @@ namespace Collections.Problem3
 
             foreach(KeyValuePair<string,int> k in dic)
             {
-                if(k.Value > 0 && k.Key!=null)
+                
+                if(k.Value > 0 && (!string.IsNullOrEmpty(k.Key)))
                 {
                     c++;
-                }
-                else 
-                {
-                    c--;
                 }
 
             }
             Console.WriteLine("Total number of unique users"+c);
         }
-        */
+        
     }
 }
