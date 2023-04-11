@@ -8,7 +8,7 @@ namespace LINQ.Problem3
 {
     internal class Program
     {
-        /*static void Main(string[] args)
+       /* static void Main(string[] args)
         {
             Console.WriteLine("Enter the number of students");
             int n = Convert.ToInt32(Console.ReadLine());
@@ -34,15 +34,15 @@ namespace LINQ.Problem3
 
 
             //fill code here
-            var x = students.OrderBy(x => x.Name).Select(x => x.Name).ToArray();
-
+            var x = (from stu in students
+                             orderby stu.Name
+                             select stu).ToArray();
 
             Console.WriteLine("Sorted student names");
             //fill code here
-            foreach (string y in x)
+            foreach(Student student in x)
             {
-                Console.WriteLine(y);
-
+                Console.WriteLine(student.Name);
             }
 
         }*/

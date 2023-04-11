@@ -8,7 +8,7 @@ namespace Collections.Problem3
 {
     internal class Program
     {
-        static void Main(String[] args)
+       /* static void Main(String[] args)
         {
             Console.WriteLine("Enter the size of the userlist");
             int n=Convert.ToInt32(Console.ReadLine());
@@ -50,7 +50,24 @@ namespace Collections.Problem3
 
             }
             Console.WriteLine("Total number of unique users"+c);
-        }
+
+
+            Console.WriteLine("Enter the size of the userlist");
+            int n = int.Parse(Console.ReadLine());
+
+            HashSet<string> users = new HashSet<string>();
+            for (int i = 0; i < n; i++)
+            {
+                string user = Console.ReadLine().Trim();
+                if (!string.IsNullOrEmpty(user))
+                {
+                    users.Add(user);
+                }
+            }
+
+            Console.WriteLine($"Total number of unique users {users.Count}");
+            
+        }*/
         
     }
 }
